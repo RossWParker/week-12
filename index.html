@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mafia Bosses</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+  <div class="container">
+
+    <h1 class="mt-5 mb-4">Mafia Bosses</h1>
+
+    <!-- Form for adding a new boss and details  -->
+    <form id="add-boss-form" class="mb-4">
+      <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" class="form-control" id="name" required>
+      </div>
+      <div class="form-group">
+        <label for="nickname">Nickname:</label>
+        <input type="text" class="form-control" id="nickname" required>
+      </div>
+      <div class="form-group">
+        <label for="cartel">cartel family:</label>
+        <input type="text" class="form-control" id="cartel">
+      </div>
+      <div class="form-group">
+        <label for="reigned-from">reignd from:</label>
+        <input type="date" class="form-control" id="start-date" required>
+      </div>
+      <div class="form-group">
+        <label for="current-status">current status:</label>
+        <input type="text" class="form-control" id="manner-of-death" required>
+      </div>
+      <button type="submit" class="btn btn-primary">Add Boss</button>
+    </form>
+
+    <!-- Table to display existing bosses -->
+    <table id="bosses-table" class="table">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Nickname</th>
+          <th>Start Date</th>
+          <th>End Date</th>
+          <th>Manner of Death</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody id="bosses-list"></tbody>
+    </table>
+  </div>
+
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <!-- Custom JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
